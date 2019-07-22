@@ -3,6 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import animated from 'animate.css' // npm install animate.css --save安装，再引入
+// import './assets/iconfont/iconfont.css'
+// import './assets/iconfont/iconfont.css'
+
+Vue.use(animated)
 
 Vue.config.productionTip = false
 /* eslint-disable no-new */
