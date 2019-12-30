@@ -11,8 +11,8 @@
                     </div>
                     <div class="txt">
                          <div class="title">
-                             {{}}
-                        </div>   
+                             <!-- {{}} -->
+                        </div>
                          <div class="txt-content"></div>
                     </div>
                     <div></div>
@@ -29,27 +29,27 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
 </template>
 <script>
 export default {
-    data() {
+    data () {
         return {
             arr: [
-                {1:123},
-                {1:123},
-                {1:123},
-                {1:123},
-                {1:123},
-                {1:123},
-                {1:123},
-                {1:123},
-                {1:123},
-                {1:123},
-                {1:123},
+                {1: 123},
+                {1: 123},
+                {1: 123},
+                {1: 123},
+                {1: 123},
+                {1: 123},
+                {1: 123},
+                {1: 123},
+                {1: 123},
+                {1: 123},
+                {1: 123}
             ]
         }
-    },
+    }
 }
 </script>
 <style lang="less" scoped>
@@ -61,12 +61,12 @@ export default {
             height: 550px;
             padding: 0 400px;
             margin-top: 40px;
-            
+
             .picture {
                 width:780px;
                 height: 550px;
                 border: 1px solid orange;
-                
+
             img {
                     width: 100%;
                     height: 100%;
@@ -79,7 +79,6 @@ export default {
                 font-size: 12px;
             }
         }
-        
+
     }
 </style>
-
